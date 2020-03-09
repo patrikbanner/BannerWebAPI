@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BannerWebAPI", "BannerWebAPI\BannerWebAPI.csproj", "{71A3E444-0E7B-44DC-98F6-03F343E91FA1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{FCAE78F6-30C3-4EB9-9CA9-54CA32510AE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BannerWebAPI.Tests", "Tests\BannerWebAPI.Tests\BannerWebAPI.Tests.csproj", "{132624BA-93F9-429D-A097-8FECBFD5481C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71A3E444-0E7B-44DC-98F6-03F343E91FA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71A3E444-0E7B-44DC-98F6-03F343E91FA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71A3E444-0E7B-44DC-98F6-03F343E91FA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71A3E444-0E7B-44DC-98F6-03F343E91FA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{132624BA-93F9-429D-A097-8FECBFD5481C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{132624BA-93F9-429D-A097-8FECBFD5481C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{132624BA-93F9-429D-A097-8FECBFD5481C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{132624BA-93F9-429D-A097-8FECBFD5481C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{132624BA-93F9-429D-A097-8FECBFD5481C} = {FCAE78F6-30C3-4EB9-9CA9-54CA32510AE6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {64C889A8-3129-42CB-B688-BC238191AA7F}
+	EndGlobalSection
+EndGlobal
